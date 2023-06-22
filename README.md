@@ -105,6 +105,10 @@ $ py manage.py migrate
 ```shell
 $ py manage.py createsuperuser
 ```
+After this you have to chose ```username```, ```email``` and ```password``` for your admin
+<br>
+
+Then you can ```login``` with it
 
 <br>
 
