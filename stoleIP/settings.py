@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_1fd_^g=mmj%y*9krqrn%%61nbx#zmp)8k!(2kod#tqo&z7h@i
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '2341-151-246-80-63.ngrok-free.app',
+    'c6d0-151-246-78-89.ngrok-free.app',
 ]
 
 
@@ -127,7 +127,7 @@ USE_I18N = True
 USE_TZ = True
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://2341-151-246-80-63.ngrok-free.app',
+    'https://c6d0-151-246-78-89.ngrok-free.app',
 ]
 
 # Static files (CSS, JavaScript, Images)

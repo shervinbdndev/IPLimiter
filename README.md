@@ -1,9 +1,19 @@
 <h1 align='center' style="font-size:5rem"><b>Stole IP & Store it for Limiting</b></h1>
 <br>
 
-<h1 align="center">Precedences</h1>
+# Main Page 
 
-<h2 align="left">Features</h1>
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/granted">
+
+# You can Limit IP in Admin Panel
+
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/admin">
+
+# Now the Client Side Access is Denied
+
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/denied.png">
+
+<h1 align="left">Precedences & Features</h1>
 
 - [x] Admin Panel
 - [x] Database Created by Django ORM
@@ -12,7 +22,7 @@
 - [x] Able To Create Super Users Such as Admin
 - [x] Able To Use Any Type of SQL Databases (Current Database is Sqlite3)
 - [x] Backend Security
-- [] Beautiful UI for Front-end Side
+- [ ] Beautiful UI for Front-end Side
 
 <br>
 

@@ -38,6 +38,8 @@ class IndexView(View):
                     ip=ip,
                     limit=False,
                 )
+        else:
+            ip = request.META['REMOTE_ADDR']
         
         return render(
             request=request,
