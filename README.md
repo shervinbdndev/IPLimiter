@@ -94,9 +94,16 @@ $ ngrok.exe http 8000
 # Django Configurations
 ## Migrate Database
 Just run the commands bellow
-```
+```shell
 $ py manage.py makemigrations
 $ py manage.py migrate
+```
+
+<br>
+
+## Create Super User to Access Admin Panel
+```shell
+$ py manage.py createsuperuser
 ```
 
 <br>
@@ -122,7 +129,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 ## Run Your Server
 After these steps you have to run your server.
-```
+```shell
 $ py manage.py runserver 8000
 ```
 
