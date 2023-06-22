@@ -3,7 +3,7 @@
 
 <div align="center">
 
-### This Project get Client IP Per every GET request they send
+### This Project gets Client IP Per every GET request they send
 ### And Stores their IP for Limiting Them in The Future
 
 </div>
