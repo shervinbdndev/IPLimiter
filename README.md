@@ -1,8 +1,4 @@
 <h1 align='center' style="font-size:5rem"><b>Stole IP & Store it for Limiting</b></h1>
-<div align='center'>
-    <img src="https://github.com/shervinbdndev/SendResume-Django/blob/master/preview/preview.png"></img>
-</div>
-
 <br>
 
 <h1 align="center">Precedences</h1>
