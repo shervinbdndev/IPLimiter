@@ -3,11 +3,11 @@
 
 # Main Page 
 
-<img src="https://github.com/shervinbdndev/IPLimiter/tree/master/images/granted">
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/granted.png">
 
 # You can Limit IP in Admin Panel
 
-<img src="https://github.com/shervinbdndev/IPLimiter/tree/master/images/admin">
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/admin.png">
 
 # Now the Client Side Access is Denied
 
