@@ -71,7 +71,7 @@ Or you can use this document instead.
 ## Open Ngrok's Website and Sign up
 You can [Sign up](https://dashboard.ngrok.com/signup) or [Log in](https://dashboard.ngrok.com/login).
 
-After these steps go to [this](https://dashboard.ngrok.com/get-started/your-authtoken) and copy your ```Auth Token```.
+After these steps open [this page](https://dashboard.ngrok.com/get-started/your-authtoken) and copy your ```Auth Token```.
 
 Close The Website and go to the ``` Directory ``` that you ``` downloaded ``` ``` NGROK ```.
 
