@@ -22,6 +22,5 @@ urlpatterns = [
     path(
         route='',
         view=include('stole.urls'),
-        name='index_view',
     )
 ]

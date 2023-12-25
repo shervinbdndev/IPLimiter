@@ -1,19 +1,23 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}
-    {% if title %}
-        <title>
-            {{ title }}
-        </title>
-    {% else %}
-        {{ none }}
-    {% endif %}
-{% endblock %}
+    <title>
+        {{ title }}
+    </title>
+{% endblock title %}
 {% block body %}
-    <center>
-        <p style="color: red;">
-            {{ access }}
-        </p>
-        <h1>دسترسی شما محدود شده است</h1>
-    </center>
-{% endblock %}
+    <div class="jumbotron d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-danger text-center" role="alert">
+                        دسترسی شما به این وب اپلیکیشن محدود شده است
+                        <br>
+                        <br>
+                        Access Type: {{ access }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

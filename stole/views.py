@@ -26,12 +26,12 @@ class IndexView(View):
         system: Any = str(request.META['HTTP_USER_AGENT']).split(sep=' ')
         
         if (ip is not None):
-            ip: str = str(ip).split(sep=',')[0]
+            ip: str = str(ip).split(sep=',')[-1].strip()
             try:
-                if (IPModel.objects.get(ip=ip).limit == False):
-                    pass
-                else:
+                if (IPModel.objects.get(ip=ip).limit == True):
                     return redirect(to=reverse(viewname='limit'))
+                else:
+                    pass
             except:
                 IPModel.objects.create(
                     user_agent=system,

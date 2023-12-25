@@ -1,28 +1,53 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}
-    {% if title %}
-        <title>
-            {{ title }}
-        </title>
-    {% else %}
-        {{ none }}
-    {% endif %}
-{% endblock %}
+    <title>
+        {{ title }}
+    </title>
+{% endblock title %}
 {% block body %}
-    <div class="container">
-        <center>
-            <p style="color: green;">
-                {{ access }}
-            </p>
-            <h1>اطلاعات سیستمی شما دریافت شد</h1>
-            <h1>با تشکر</h1>
-            <h1>IP Address: {{ ip }}</h1>
-            {% if request.user_agent.is_mobile %}
-                <h1>OS: {{ system_other }}</h1>
-            {% else %}
-                <h1>OS: {{ system_windows }}</h1>
-            {% endif %}
-        </center>
+    <style type="text/css">
+        .ip-text {
+            display: inline-block;
+            color: transparent;
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .ip-text:hover {
+            color: #0A3622;
+            text-shadow: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="jumbotron d-flex align-items-center min-vh-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-success text-center" role="alert">
+                        آی پی پابلیک شما در دیتابیس های ما ذخیره شد
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="container">
+                                    <div class="row justify-content-md-center ">
+                                        <div class="col col-lg-2">
+                                            IP:  
+                                        </div>
+                                        <div class="col-sm-auto">
+                                            <h2 class="ip-text">{{ ip }}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                Access Type: {{ access }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-{% endblock %}
+{% endblock body %}

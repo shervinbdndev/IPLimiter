@@ -31,7 +31,7 @@
 - [x] Able To Create Super Users Such as Admin
 - [x] Able To Use Any Type of SQL Databases (Current Database is Sqlite3)
 - [x] Backend Security
-- [ ] Beautiful UI for Front-end Side
+- [x] Beautiful UI for Front-end Side
 
 <br>
 
