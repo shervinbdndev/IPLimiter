@@ -12,7 +12,7 @@
 
 # Main Page 
 
-<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/granted.png">
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/granted_new_ui.png">
 
 # You can Limit IP in Admin Panel
 
@@ -20,7 +20,7 @@
 
 # Now the Client Side Access is Denied
 
-<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/denied.png">
+<img src="https://github.com/shervinbdndev/IPLimiter/blob/master/images/denied_new_ui.png">
 
 <h1 align="left">Precedences & Features</h1>
 
